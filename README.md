@@ -1,5 +1,5 @@
 # Deep Learning Notes
-# Project Flow
+# ANN Project Flow
 ## Data Preprocessing
 -->Check for null values<br>
 -->Check for duplicated<br>
@@ -14,6 +14,9 @@
 -->import necessary DL modules and create an NN architecture.<br>
 -->create NN layers using Dense, add loss function and optimizer.<br>
 -->Once architecture is ready fit the test data(both input and output) to the architecture and let it get trained.<br>
+Note:
+-->If it's a regression problem use linear in the last layer.
+-->If it's classification problem use sigmoid or soft max
 ## Model Evaluation
 -->To validate your model give the input test data and capture all the outputs.
 -->Compare the outputs given by the model with the actual outputs in test using a loss function and check the performance of thr model.
