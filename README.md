@@ -15,6 +15,9 @@
 -->create NN layers using Dense, add loss function and optimizer.<br>
 -->Once architecture is ready fit the test data(both input and output) to the architecture and let it get trained.<br>
 ## Model Evaluation
--->
+-->To validate your model give the input test data and capture all the outputs.
+-->Compare the outputs given by the model with the actual outputs in test using a loss function and check the performance of thr model.
+-->LossFunctions for regression: r2_score,
+-->LossFunctions for classification:
 ## Key Points
 -->Fit is the process where the model gets all its trainable parameters trained and set to go.<br>
